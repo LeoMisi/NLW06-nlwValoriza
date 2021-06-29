@@ -8,7 +8,6 @@ import { CreateComplimentController } from "./controllers/CreateComplimentContro
 const router = Router();
 
 const createUserController = new CreateUserController();
-
 const createTagController = new CreateTagController();
 const authenticateUserController = new AuthenticateUserController();
 const createComplimentsController = new CreateComplimentController();
