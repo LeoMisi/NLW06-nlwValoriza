@@ -9,7 +9,7 @@ class CreateComplimentController {
 
     const compliment = await createComplimentService.execute({
       tag_id,
-      user_sender: request,
+      user_sender: user_id,
       user_receiver,
       message,
     });
